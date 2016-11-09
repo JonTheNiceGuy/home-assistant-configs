@@ -1,0 +1,15 @@
+---
+room lounge:
+  name: Lounge
+  view: yes
+  entities:
+    - media_player.aff_media_centre
+    - media_player.firetv_stick
+    - media_player.lounge_squeezebox
+    - device_tracker.computer_chromebit
+    - device_tracker.media_device_firetv_stick
+    - device_tracker.media_device_freesat_libreelec_wired
+    - device_tracker.media_device_freeview
+    - device_tracker.media_device_squeezebox_lounge
+    - device_tracker.switchlightlounge
+    - switch.lounge_light_switch

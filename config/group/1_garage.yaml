@@ -1,0 +1,7 @@
+---
+room Garage:
+  name: Garage
+  view: yes
+  entities:
+    - device_tracker.computer_vm_host
+

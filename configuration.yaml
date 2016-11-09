@@ -1,0 +1,39 @@
+---
+homeassistant: !include config/basic.yaml
+
+history:
+logbook:
+
+http:
+  api_password: !secret api_password
+  trusted_networks:
+    - 127.0.0.0/8
+    - 10.0.0.0/8
+    - 172.16.0.0/12
+    - 192.168.0.0/16
+
+mqtt: 
+  broker: 127.0.0.1
+  port: 1884
+  client_id: home-assistant-1
+  keepalive: 60
+  username: owntracks
+  password: !secret mqtt_password
+  protocol: 3.1
+
+switch: !include_dir_list config/switch/
+device_tracker: !include_dir_list config/device_tracker/
+sensor: !include_dir_list config/sensor/
+media_player: !include_dir_list config/media_player/
+group: !include_dir_merge_named config/group/
+
+ifttt: !include config/ifttt.yaml
+notify: !include_dir_list config/notify/
+
+sun:
+updater:
+discovery:
+conversation:
+frontend:
+
+automation: !include_dir_list config/automation/

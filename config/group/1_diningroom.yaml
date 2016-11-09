@@ -1,0 +1,8 @@
+---
+room diningroom:
+  name: Dining Room
+  view: yes
+  entities:
+    - media_player.dining_room_squeezebox
+    - device_tracker.media_device_squeezebox_diningroom
+

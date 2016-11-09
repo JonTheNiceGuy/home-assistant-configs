@@ -1,0 +1,11 @@
+---
+room frontbedroom:
+  name: Front Bedroom
+  view: yes
+  entities:
+    - device_tracker.switchjogglerfrontbedroom
+    - device_tracker.switchblanketfrontbedroom
+    - device_tracker.media_device_squeezebox_frontbedroom
+    - media_player.front_bedroom_squeezebox
+    - switch.front_bedroom_squeezebox_switch
+    - switch.front_bedroom_heated_blanket_switch

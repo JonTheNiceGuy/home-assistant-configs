@@ -1,0 +1,8 @@
+---
+platform: firetv
+host: localhost
+port: 5556
+name: FireTV Stick
+
+
+

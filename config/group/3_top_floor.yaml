@@ -1,0 +1,9 @@
+---
+room topfloor:
+  name: Top Floor
+  view: yes
+  entities:
+    - device_tracker.media_device_squeezebox_topfloor
+    - media_player.top_floor_squeezebox
+    - switch.top_floor_squeezebox_switch
+    - device_tracker.switchsqueezeboxtopfloor

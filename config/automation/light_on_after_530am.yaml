@@ -1,0 +1,7 @@
+alias: 'Turn light on after 530am' 
+trigger:
+  platform: time
+  after: '05:30:00'
+action: 
+  service: switch.turn_on 
+  entity_id: switch.loungelightswitch

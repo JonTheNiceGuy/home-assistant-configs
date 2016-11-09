@@ -1,0 +1,8 @@
+---
+room kitchen:
+  name: Kitchen
+  view: yes
+  entities:
+    - device_tracker.media_device_squeezebox_kitchen
+    - media_player.kitchen_squeezebox
+

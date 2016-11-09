@@ -1,0 +1,10 @@
+---
+room playroom:
+  name: Playroom Room
+  view: yes
+  entities:
+    - media_player.playroom_squeezebox
+    - device_tracker.media_device_squeezebox_playroom
+    - device_tracker.router_wifi_playroom
+    - device_tracker.printer_hp
+

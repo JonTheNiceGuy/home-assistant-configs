@@ -1,0 +1,18 @@
+alias: 'Turn light on if overcast' 
+trigger:
+  - platform: numeric_state
+    entity_id: sensor.forecastio_cloud_coverage
+    above: 85
+  - platform: numeric_state
+    entity_id: sun.sun
+    value_template: '{{ states.sun.sun.attributes.elevation }}'
+    above: 0.5
+    
+condition: use_trigger_values
+
+action: 
+  - service: switch.turn_on 
+    entity_id: switch.loungelightswitch
+  - notify: notify.telegram
+    data:
+      message: Turning the light on - it's dark!

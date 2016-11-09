@@ -1,0 +1,13 @@
+alias: 'Turn light off in the morning' 
+trigger:
+  platform: numeric_state
+  entity_id: sun.sun
+  value_template: '{{ states.sun.sun.attributes.elevation }}'
+  above: 0.5
+condition:
+  condition: time
+  after: '05:30:00'
+  before: '12:00:00'
+action: 
+  service: switch.turn_off
+  entity_id: switch.loungelightswitch

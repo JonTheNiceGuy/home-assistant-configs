@@ -1,0 +1,6 @@
+---
+room Hall:
+  name: Hall
+  view: yes
+  entities:
+    - device_tracker.computer_homeassistant
