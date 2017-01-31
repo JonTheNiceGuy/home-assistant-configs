@@ -4,3 +4,5 @@ room Hall:
   view: yes
   entities:
     - device_tracker.computer_homeassistant
+    - device_tracker.router_asus
+    - device_tracker.router_technicolor_wired

@@ -1,0 +1,15 @@
+---
+room People:
+  view: yes
+  name: People
+  entities:
+    - device_tracker.owntracks_jons6
+    - device_tracker.owntracks_juless6
+    - device_tracker.mobile_daniel
+    - device_tracker.mobile_jenny
+    - device_tracker.mobile_phil
+    - device_tracker.mobile_jofinlayson
+    - device_tracker.mobile_stulindsay
+    - device_tracker.iphone_timscreen
+    - device_tracker.iphone_eilissheridan
+    - device_tracker.tablet_ameliafinlayson

@@ -3,8 +3,5 @@ default view:
   view: yes
   name: The House
   entities:
-    - device_tracker.mobile_daniel
-    - device_tracker.owntracks_jons6
-    - device_tracker.owntracks_juless6
-    - switch.lounge_light_switch
     - switch.front_bedroom_heated_blanket_switch
+    - switch.lounge_lamp_light_switch

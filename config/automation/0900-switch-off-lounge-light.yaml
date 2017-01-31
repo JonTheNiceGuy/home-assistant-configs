@@ -1,0 +1,19 @@
+---
+alias: 'Switch off the Lounge Lights at 0900'
+
+trigger:
+  - platform: time
+    minutes: '/1'
+    seconds: 0
+
+condition:
+  - condition: time
+    after:  '09:00:00'
+    before: '09:02:00'
+
+action:
+  - service: switch.turn_off
+    entity_id: switch.lounge_lamp_light_switch
+  - service: notify.telegram
+    data:
+      message: Lounge Lights Off

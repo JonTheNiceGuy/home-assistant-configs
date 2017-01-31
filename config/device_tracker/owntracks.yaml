@@ -1,3 +1,5 @@
 ---
 platform: owntracks
-max_gps_accuracy: 200
+max_gps_accuracy: 500
+interval_seconds: 30 
+consider_home: 300

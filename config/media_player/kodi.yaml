@@ -1,6 +1,0 @@
----
-platform: kodi
-host: http://192.168.1.51
-port: 8080
-name: LibreElec
-turn_off_action: shutdown

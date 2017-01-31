@@ -1,0 +1,5 @@
+---
+platform: cups
+printers:
+  - HP-Officejet-6500-A4
+  - SX218-A4

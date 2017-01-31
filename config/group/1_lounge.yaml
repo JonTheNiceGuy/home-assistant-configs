@@ -3,7 +3,7 @@ room lounge:
   name: Lounge
   view: yes
   entities:
-    - media_player.aff_media_centre
+    - switch.lounge_lamp_light_switch
     - media_player.firetv_stick
     - media_player.lounge_squeezebox
     - device_tracker.computer_chromebit
@@ -12,4 +12,5 @@ room lounge:
     - device_tracker.media_device_freeview
     - device_tracker.media_device_squeezebox_lounge
     - device_tracker.switchlightlounge
-    - switch.lounge_light_switch
+    - device_tracker.games_console_wii
+    - device_tracker.games_console_ps3
