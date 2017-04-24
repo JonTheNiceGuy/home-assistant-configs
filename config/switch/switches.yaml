@@ -1,6 +1,6 @@
 ---
 platform: orvibo
-discovery: false
+discovery: true
 switches:
   - name: "Front Bedroom Heated Blanket Switch"
     host: 192.168.1.230
@@ -8,9 +8,9 @@ switches:
 #  - name: "Lounge Christmas Tree Light Switch"
 #    host: 192.168.1.235
 #    mac: !secret switch_2_mac
-  - name: "Lounge Lamp Light Switch"
-    host: 192.168.1.232
-    mac: !secret switch_3_mac
+#  - name: "Lounge Lamp Light Switch"
+#    host: 192.168.1.232
+#    mac: !secret switch_3_mac
 #  - name: "Front Of House Lights Switch"
 #    host: 192.168.1.238
 #    mac: !secret switch_4_mac
